@@ -1,0 +1,51 @@
+{
+  "name": "discord-reflect",
+  "version": "1.0.0",
+  "description": "DiscordReflect is a comprehensive handler designed specifically for Discord bots, leveraging the power of TypeScript decorators and the Reflect API. This package offers an intuitive way to manage and organize Discord bot events by utilizing annotations (decorators) to streamline event registration and management. By integrating the Reflect API, DiscordReflect provides developers with enhanced metadata handling capabilities, enabling more efficient event routing, modularization, and extensibility. Whether you're building a simple bot or a complex bot with intricate event structures, DiscordReflect simplifies the process by offering a robust, type-safe, and reflective approach to Discord bot development.",
+  "main": "index.js",
+  "scripts": {
+    "start:prod": "npm run build && npm run start",
+    "start": "node Build/index.js",
+    "build": "tsc"
+  },
+  "contributors": [
+    {
+      "name": "Maxence Bessi",
+      "url": "https://rosydev.fr",
+      "email": "bessimaxence@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Discord",
+    "handler",
+    "decorators",
+    "Reflect",
+    "bot"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/C1ach0/DiscordReflect.git"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/node": "^20.4.4",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^2.2.0",
+    "axios": "^1.6.3",
+    "better-sqlite3": "^9.2.2",
+    "chalk": "^2.4.2",
+    "cli-table3": "^0.6.3",
+    "discord-api-types": "^0.37.50",
+    "discord.js": "^14.14.1",
+    "moment": "^2.29.4",
+    "ms": "^2.1.3",
+    "node-os-utils": "^1.3.7",
+    "nodeactyl": "^3.3.0",
+    "quick.db": "^9.1.7",
+    "reflect-metadata": "^0.1.13",
+    "ws": "^8.16.0"
+  }
+}

@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "ESNext"
+        ],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "ESNext",
+        "outDir": "Build",
+        "sourceMap": false,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "allowSyntheticDefaultImports": true,
+        "skipLibCheck": true,
+        "skipDefaultLibCheck": true,
+        "resolveJsonModule": true,
+        "importHelpers": true,
+        "typeRoots": [
+            "src/Interfaces/"
+        ]
+    },
+    "include": [
+        "env.d.ts",
+        "src/**/*"
+    ],
+    "exclude": [
+        "src/**/__tests__/*",
+        "node_modules",
+        "Build",
+        "*.json",
+        "*.test.ts",
+        "Logs"
+    ]
+}
